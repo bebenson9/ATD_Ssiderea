@@ -1,0 +1,103 @@
+METADATA FOR Data_ATD_Ssiderea
+
+coreid			full identification code of the core in the format Y-AA-BB-##-S
+						where 	Y = country code (one country in current study)
+								AA = two letter reef zone designation 
+										IR = inner reef
+										OR = outer reef
+								BB = two letter site code
+										BH = Basin Hill Shoals
+										BS = Bache Shoals
+										CR = Cheeca Rocks
+										WW = West Washerwoman
+										AR = Aligator Reef
+										CF = Carysfort Reef
+										ES = Eastern Sambo
+										FR = Fowey Rocks
+								## = unique core number
+								S  = Siderastrea siderea (one species in current study)
+						
+histid			full identification code of the histology sample in the format BB-#
+						where 	BB = two letter site code (see coreid)
+								# = unique histology sample number
+
+waypoint		GPS waypoint of colony
+
+lat				latitudinal location of colony at time of core collection
+
+long 			longitudinal location of colony at time of core collection 
+							
+corecol			date of core collection
+
+histcol 		date of histology sample collection 
+
+scanned			date of core CT scan
+
+reefzone		reef zone where colony is located 
+						where 	IR = inner reef
+								OR = outer reef
+					
+site			two letter site code (see coreid)
+
+gender 			colony gender based on gametes identified via light microscopy 
+						where 	M = male
+								F = female
+								NA = no gametes identified
+
+mrb 			identity of  most recently deposited band discernable at apex of core
+						where 	HIGH = high density band at apex
+								LOW = low density band at apex
+								
+tissue 			tissue thickness (mm) as mean of 6 points around core perimeter 
+
+corelength		core length as given by tape measure (cm)
+
+meanle5			mean annual linear extension rate (cm yr-1) for most recent 5 years
+
+meanle			mean annual linear extension rate (cm yr-1) for entire core record
+
+e1				intra-annual variation in extension, or the ratio of winter 
+				to summer extension, as measured by CT scan band width in pixels
+				
+ATDp			apparent time difference as predicted by the Townsville model and based
+				on measured core characteristics
+				
+ATDpc			ATDp constrained to fall between 0 and 12 months	
+
+
+ATDot			observed apparent time difference in the most recent 5 years of growth in
+				each core and measuring peak to peak using sea surface temperature data
+
+ATDot_mrb		observed apparent time difference as calculated in only the most recent
+				band in a core using sea surface temperature
+				
+ATDot_mrb_a		observed apparent time difference as calculated using only the most recent
+				band in a core, adjusted to avoid "jumping" across 0-12 boundary relative 
+				to ATDot; see ESM Section D
+						cores affected: Y-IR-BS-67-S
+										Y-OR-AR-05-S
+										Y-OR-ES-44-S
+	
+ATDop			observed apparent time difference using 5 years per core and measuring 
+				peak to peak using photosynthetically active radiation data	
+				
+														
+ATDop_a			ATDop adjusted as needed to avoid "jumping" across 0-12 boundary relative
+				to ATDot; see ESM Section D
+						cores affected: Y-IR-BS-67-S
+										Y-IR-BS-69-S
+										Y-IR-BS-74-S					
+										Y-OR-AR-05-S
+										Y-OR-ES-44-S
+	
+ATDop_mrb		observed apparent time difference as calculated in only the most recent
+				band in a core using photosynthetically active radiation data	
+
+
+ATDot_mrb_a		observed apparent time difference as calculated using only the most recent
+				band in a core, adjusted to avoid "jumping" across 0-12 boundary relative 
+				to ATDop; see ESM Section D
+						cores affected: Y-IR-BS-74-S										
+										Y-OR-CF-30-S
+										Y-OR-ES-02-S
+					
